@@ -1,6 +1,6 @@
 <div style = "font-family: 'Open Sans', sans-serif; font-size: 16px">
 
-# ModulePulseSensor
+# ModulePulseCounter
 
 <div style = "color: #555">
     <p align="center">
