@@ -3,7 +3,7 @@
  * Класс для работы с пульсовыми датчиками, осуществляющий подсчет импульсов на пине.
  * Предоставляет методы для запуска и остановки подсчета импульсов, а также получения информации о значениях счетчиков.
  */
-class ClassPulseSensor extends ClassSensor {
+class ClassPulseCounter extends ClassSensor {
     constructor(opts) {
         ClassSensor.call(this, opts);
         this._SetWatch;
@@ -71,4 +71,4 @@ class ClassPulseSensor extends ClassSensor {
         return true;
     }
 }
-exports = ClassPulseSensor;
+exports = ClassPulseCounter;
